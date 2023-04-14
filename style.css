@@ -1,0 +1,29 @@
+body,html {
+    margin:0;
+    padding:0;
+  }
+#content
+{
+    background-color: #28282B; 
+    height: 100%;
+    /* width:70wv; */
+    display: grid;
+    grid-template-rows: repeat(90,1fr);
+    grid-template-columns: repeat(52,1fr);
+    grid-gap: 3px;
+    padding:1px;
+}
+.box
+{
+    border-radius: 0.5px;
+    border: wheat;
+}
+.black
+{
+    background-color: rgb(96, 89, 191);
+}
+.text
+{
+    font-size: 5px;
+    background: whitesmoke;
+}
