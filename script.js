@@ -26,7 +26,7 @@ for (let i = 0; i < 90 * 52; i++) {
 }
 document.getElementById("percent").textContent =
   percentageOfLifeSpent.toFixed(2) + "%";
-updateQuote();
+// updateQuote();
 async function updateQuote() {
   let quote = await getQuote(API_URL);
   quote= quote[0].q;
